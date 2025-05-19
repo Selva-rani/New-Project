@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.left-section .logo {
+  height: 40px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.search-bar {
+  padding: 8px 12px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.icon {
+  font-size: 20px;
+  margin-left: 16px;
+}
+
+.main-section {
+  display: flex;
+  padding: 24px;
+  gap: 40px;
+}
+
+.left-container {
+  flex: 1;
+}
+
+.right-gallery {
+  flex: 1;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.service-item {
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.service-item:hover {
+  background-color: #f1f1f1;
+}
+
+.emoji {
+  font-size: 28px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
